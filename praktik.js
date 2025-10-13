@@ -9,7 +9,9 @@ function ButtonClick(){
     let li =document.createElement("li");
     li.textContent=TextInput;
     ul.appendChild(li);
+    Input.value="";
 }
 function ButtonOffClick(){
     ul.innerHTML="";    
+
 }
